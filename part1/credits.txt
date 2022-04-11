@@ -1,0 +1,15 @@
+FOR ANIMATIONS:
+- GSAP v3 & its ScrollTrigger plugin.
+- Firefly animation: https://greensock.com/forums/topic/10899-jquery-firefly-animation-with-gsap-possible/
+  https://codepen.io/MinzCode/pen/dyGXBBX
+
+RESOURCES:
+- https://vectr.com/ to draw vectors.
+- SVGator also to draw vectors.
+- https://www.photopea.com/ free online photoshop -- for converting png to svg
+- https://anyconv.com/svg-to-html-converter/ convert svg to html
+
+KNOWN BUGS:
+- I'm not responsible for what happens if you refresh in the middle of the page
+- Opening up the "Inspect Element" / Console for browsers will cause animation errors to trigger wrongly when closed if it is situated on the bottom of the browser.
+- If you scroll through Chongyun's exorcism moment really fast, Chongyun's SVG symbol gets stuck in the background. Scroll back into the area and scroll back out slowly.

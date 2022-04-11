@@ -1,0 +1,287 @@
+html {
+  font-size: 16px;
+}
+
+body{
+  font-size: 1rem;
+  line-height: 1.5rem;
+  margin: 0;
+  padding: 0;
+  position: relative;
+  background-color: #fff;
+  ruby-align: center;
+}
+
+p {
+  margin-block-end: 3em;
+}
+
+/* Separate div element for setting background images.
+Container/content is on top of it.
+Done this way to make setting GSAP animations for bg images SMOOTH & EASY! */
+#bg {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: no-repeat center center;
+  background-size: 75%;
+  background-attachment: fixed;
+  z-index: -5;
+  opacity: 0;
+}
+
+/* chongyun moments */
+#purge {
+}
+
+#purgeSymbol {
+  opacity: 0;
+  height: 100vh;
+}
+
+/* Where all the actual content is. */
+#container {
+  margin: 0;
+  z-index: 5;
+}
+
+/* properties for the text divider! */
+.textdiv {
+  padding: 0 !important;
+  text-align: center;
+  margin-bottom: 3em;
+}
+
+/* Divs are usually 'mainstory' or 'dream', want them to have padding. */
+#container > div {
+  margin-left: auto;
+  margin-right: auto;
+  font-family: Georgia, serif;
+  padding: 100px;
+}
+
+/* Who knows I might use this someday. */
+.mainstory {
+}
+
+/* Empty div element that pads the screen so people have time to look at any
+background image that was just set in #bg. */
+.spacer {
+  height: 75vh;
+}
+
+.fullspacer {
+  height:100vh;
+}
+
+/* ------------------ DREAM ----------------- */
+
+.dreamdivider p {
+  text-align: center;
+  color: #a64d79;
+  font-size: 1rem;
+  margin-bottom: 5rem;
+}
+
+.dream {
+  margin-left: auto;
+  margin-right: auto;
+  color: #fff;
+  -webkit-transition:opacity 1s;
+  -moz-transition:opacity 1s;
+  -o-transition:opacity 1s;
+  transition:opacity 1s;
+  /* background-color: #000;
+  opacity: 0; */
+}
+
+.dreamactive {
+  opacity: 1 !important;
+}
+
+/* IMAGES IN DREAM */
+
+.full {
+  max-width: 100% !important;
+}
+
+.panel {
+  max-width: 70%;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  margin-bottom: 2.5rem;
+}
+
+.left {
+  padding-right: 100px;
+}
+
+.right {
+  padding-left: 100px;
+}
+
+/* give text shadow in that one portion so its readable. lol */
+#cavemouth {
+  text-shadow: 0px 0px 3px black;
+}
+
+/* ------------------ WUWANG HILL ANIMATION ----------------- */
+
+.firefly {
+  width: 6px;
+  height: 6px;
+  background-color: #0AABC5;
+  box-shadow:0px 0px 10px 2px #0130BD;
+  border-radius: 20px;
+  position: fixed;
+  z-index:5;
+  top: 0;
+  left: 0;
+}
+
+
+/* ------------------ COLORS & FORMATTING ----------------- */
+
+.normal {
+  color: #000;
+}
+
+.centered {
+  text-align: center;
+}
+
+/* lowest level */
+.distort1 {
+  color: #4c1130;
+}
+
+.distort2 {
+  color: #741b47;
+}
+
+.distort3 {
+  color: #a64d79;
+}
+
+.distort4 {
+  color: #c27ba0;
+}
+
+.distort5 {
+  color: #d5a6bd;
+}
+
+/* superpurple */
+.distort6 {
+  color: #702097;
+}
+
+/* indents */
+
+.indent1 {
+  margin-left: 10%;
+}
+
+.indent2 {
+  margin-left: 20%;
+}
+
+.indent3 {
+  margin-left: 30%;
+}
+
+.indent4 {
+  margin-left: 40%;
+}
+
+/* sizes */
+
+.increase1 {
+  font-size: 1.5rem;
+}
+
+.increase2 {
+  font-size: 2rem;
+}
+
+.increase3 {
+  font-size: 2.5rem;
+}
+
+/* overlaps */
+
+.leftup {
+  transform: translate(-2em, -5px);
+  opacity: 0.5;
+  /* display: inline-block; */
+}
+
+.leftdown {
+  transform: translate(-5em, 5px);
+  opacity: 0.5;
+  /* display: inline-block; */
+}
+
+/* possession:) */
+
+.possessed {
+  position: relative;
+}
+
+.echo1 {
+  position: absolute;
+  opacity: 0.5;
+  left: 0.5em;
+  top: -0.5em;
+}
+
+.echo2 {
+  position: absolute;
+  opacity: 0.5;
+  left: 0.3em;
+  top: 0.4em;
+}
+
+.echo3 {
+  position:absolute;
+  opacity: 0.5;
+  left: 0.1em;
+  top: 0.1em;
+}
+
+/* incorrectly used ruby text. */
+rt {
+  color: #E18A23;
+}
+
+/* chongyun */
+.chongyun {
+  color: #0b5394;
+}
+
+.chongyunlight {
+  color: #cfe2f3;
+  text-shadow: 0px 0px 3px #073763;
+}
+
+/* ------------------ FOOTER ----------------- */
+
+#footer {
+  text-align: center;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  background-color: #000;
+  color: #fff;
+}
+
+#footer a, #footer a:visited, #footer a:active {
+  color: #E18A23;
+  text-decoration: none;
+}
+
+#footer a:hover {
+  color: #c27ba0;
+}

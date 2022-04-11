@@ -1,0 +1,13 @@
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
+.part {
+  border-bottom: 1px solid black;
+}
+
+.sectiontext {
+  padding: 50px;
+  overflow: auto;
+}
